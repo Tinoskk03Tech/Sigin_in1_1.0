@@ -1,0 +1,72 @@
+body {
+    background: url(../img/onomo\ hotels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    top : 80px;
+    left : 300px;
+    right : 350px;
+    height: 400px;
+    width: 450px;
+}
+
+section, h1{
+    color: green;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tape{
+    border: none;
+    background: #111;
+    color: #00ff40;
+    size: 50px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 50px;
+    box-shadow: 0 0 10px #c0f1cc;
+    
+}
+
+input::placeholder {
+    padding-left: 8px;
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;  
+}
+
+.send{
+    background-color: green;
+    font-size: 22px;
+    font-weight: bold;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-shadow: 0 0 10px #00ff40;
+}
+
+h3 {
+    color: #00ff40;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    a {
+        margin-left: 195px;
+        text-decoration: none;
+    }
+}
